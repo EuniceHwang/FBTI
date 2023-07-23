@@ -1,0 +1,425 @@
+[
+  {  
+  "model": "main.question",
+  "pk": 1,
+  "fields": {
+    "number": 1,
+    "content": "당신 앞에 여러 개의 딸기가 테이블 위에 올려져 있어요. 당신은 여러 개의 딸기 중 어떤 모양의 딸기를 고를 건가요?"
+  }
+  },
+  {  
+  "model": "main.question",
+  "pk": 2,
+  "fields": {
+    "number": 2,
+    "content": "당신이 마녀가 된 당신! 1개의 아이템만 가질 수 있다면 어떤 아이템을 가지고 싶으신가요?"
+  }
+  },
+  {  
+  "model": "main.question",
+  "pk": 3,
+  "fields": {
+    "number": 3,
+    "content": "당신은 마법의 트렁크를 가지고 있었어요. 그런데 어느 날, 그 트렁크에서 마법 동물이 도망쳐 버렸어요. 그 동물은 무엇일까요?"
+  }
+  },
+  {  
+  "model": "main.question",
+  "pk": 4,
+  "fields": {
+    "number": 4,
+    "content": "행복한 주말 아침 시작했어요. 눈 뜨자마자 주말 아침에 가장 먹고 싶은 음식은 무엇인가요?"
+  }
+  },
+  {  
+  "model": "main.question",
+  "pk": 5,
+  "fields": {
+    "number": 5,
+    "content": "눈을 떴는데 내가 과일로 변했다. 나는 어떤 과일로 변했을까?"
+  }
+  },
+  {  
+  "model": "main.question",
+  "pk": 6,
+  "fields": {
+    "number": 6,
+    "content": "오늘따라 눈에 띄는 음식들이 많아요.일상이 행복해지는 맛! 당신이 가장 좋아하는 사람과 먹는다면 어떤 음식을 먹을 건가요?"
+  }
+  },
+  {
+    "model": "main.choice",
+    "pk": 1,
+    "fields": {
+        "content": "물방울 모양",
+        "food": 1,
+        "question": 1
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 2,
+    "fields": {
+        "content": "둥근모양",
+        "food": 2,
+        "question": 1
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 3,
+    "fields": {
+        "content": "울퉁불퉁한 모양",
+        "food": 3,
+        "question": 1
+    }
+  },  
+  {
+    "model": "main.choice",
+    "pk": 4,
+    "fields": {
+        "content": "길쭉한 모양",
+        "food": 4,
+        "question": 1
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 5,
+    "fields": {
+        "content": "세모모양",
+        "food": 5,
+        "question": 1
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 6,
+    "fields": {
+        "content": "머리빗",
+        "food": 5,
+        "question": 2
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 7,
+    "fields": {
+        "content": "가면",
+        "food": 4,
+        "question": 2
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 8,
+    "fields": {
+        "content": "지팡이",
+        "food": 3,
+        "question": 2
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 9,
+    "fields": {
+        "content": "빗자루",
+        "food": 2,
+        "question": 2
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 10,
+    "fields": {
+        "content": "구슬",
+        "food": 1,
+        "question": 2
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 11,
+    "fields": {
+        "content": "빨간 새",
+        "food": 3,
+        "question": 3
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 12,
+    "fields": {
+        "content": "카멜레온",
+        "food": 4,
+        "question": 3
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 13,
+    "fields": {
+        "content": "검은 표범",
+        "food": 2,
+        "question": 3
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 14,
+    "fields": {
+        "content": "토끼",
+        "food": 5,
+        "question": 3
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 15,
+    "fields": {
+        "content": "강아지",
+        "food": 1,
+        "question": 3
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 16,
+    "fields": {
+        "content": "유부초밥",
+        "food": 4,
+        "question": 4
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 17,
+    "fields": {
+        "content": "소고기무국",
+        "food": 1,
+        "question": 4
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 18,
+    "fields": {
+        "content": "짜장면",
+        "food": 5,
+        "question": 4
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 19,
+    "fields": {
+        "content": "만두",
+        "food": 3,
+        "question": 4
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 20,
+    "fields": {
+        "content": "불고기",
+        "food": 2,
+        "question": 4
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 21,
+    "fields": {
+        "content": "멜론",
+        "food": 4,
+        "question": 5
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 22,
+    "fields": {
+        "content": "포도",
+        "food": 1,
+        "question": 5
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 23,
+    "fields": {
+        "content": "파인애플",
+        "food": 5,
+        "question": 5
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 24,
+    "fields": {
+        "content": "사과",
+        "food": 2,
+        "question": 5
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 25,
+    "fields": {
+        "content": "바나나",
+        "food": 3,
+        "question": 5
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 26,
+    "fields": {
+        "content": "미역국",
+        "food": 1,
+        "question": 6
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 27,
+    "fields": {
+        "content": "삼겹살",
+        "food": 2,
+        "question": 6
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 28,
+    "fields": {
+        "content": "회",
+        "food": 4,
+        "question": 6
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 29,
+    "fields": {
+        "content": "치킨",
+        "food": 5,
+        "question": 6
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 30,
+    "fields": {
+        "content": "떡볶이",
+        "food": 3,
+        "question": 6
+    }
+  },  
+  {
+  "model": "main.food",
+  "pk": 1,
+  "fields": {
+      "name": "만인의 힐러 국밥",
+      "count": 0,
+      "data": {
+          "title": "따뜻한 당신에게 맞는 음식은",
+          "features": [
+              "어느 성격의 유형보다도 다른 사람들을 배려하는 성격의 사람이에요.",
+              "이미 존재 자체로 많은 이들을 위로해줘요.",
+              "상냥한 성격으로 모두에게 사랑을 받고 있군요."
+          
+          ],
+          "descriptions": [
+              "서울에서 가장 핫한 국밥집만 모았어요.",
+              "뜨끈한 국밥으로 오늘 피로 싹 풀어봐요!"
+          ]
+      }
+    }      
+  },
+  {
+  "model": "main.food",
+  "pk": 2,
+  "fields": {
+      "name": "지조와 품격 스테이크",
+      "count": 0,
+      "data": {
+          "title": "깔끔한 당신에게 맞는 음식은",
+          "features": [
+              "감정형과 사고형의 밸런스를 모두 잘 갖춘 성격이에요.",
+              "알아서 잘! 딱 깔끔한 성격을 타고 나서 절대 성급하게 결정하진 않아요.",
+              "오그라드는 것에 내성이 약하며 깔끔한 일처리와 정석의 표본이예요."
+          
+          ],
+          "descriptions": [
+              "서울에서 가장 맛있는 스테이크집만 모았어요.",
+              "오늘은 든든한 고기로 행복함을 느껴봐요!"
+          ]
+      }
+    }      
+  },
+  {
+  "model": "main.food",
+  "pk": 3,
+  "fields": {
+      "name": "시끌벅쩍 북쩍북쩍 떡튀순",
+      "count": 0,
+      "data": {
+          "title": "사교성 좋은 당신에게 맞는 음식은",
+          "features": [
+              "MBTI E(외향형)신가요?",
+              "사람들과 대화하는 것을 좋아하고 주변 사람들을 항상 즐겁게 해줘요.",
+              "화해를 잘 이끌어내는 외향적인 성격이에요."
+          
+          ],
+          "descriptions": [
+              "서울에서 가장 맛있는 떡볶이집만 모았어요.",
+              "오늘은 매콤한 떡볶이로 스트레스를 날려보세요!"
+          ]
+      }
+    }      
+  },
+  {
+  "model": "main.food",
+  "pk": 4,
+  "fields": {
+      "name": "방구석본캐 모듬초밥",
+      "count": 0,
+      "data": {
+          "title": "알면 알수록 진국인 당신에게 맞는 음식은",
+          "features": [
+              "낯을 많이 가려서 처음 만난 사람들에게 무미건조해요.",
+              "하지만 찐친들과 있을 때 본캐가 나오고 말이 아주 많아지고 장난도 잘 쳐요.",
+              "아무 생각 없이 멍 때리기를 잘 하며 주변 사람들을 챙기는 것을 좋아해요."
+          
+          ],
+          "descriptions": [
+              "서울에서 가장 맛있는 초밥집만 모았어요.",
+              "맛있는 초밥으로 기분 좋은 하루를 만들어보세요!"
+          ]
+      }
+    }      
+  },
+  {
+  "model": "main.food",
+  "pk": 5,
+  "fields": {
+      "name": "소심한 관종 후라이드치킨",
+      "count": 0,
+      "data": {
+          "title": "양파같은 매력을 가진 당신에게 맞는 음식은",
+          "features": [
+              "조용하고 소심하지만 주변에 은근 인기가 많아요.",
+              "하지만 칭찬을 받으면 하루 종일 그 생각만 할 정도로 아주 좋아해요.",
+              "갈등, 불화를 너무 싫어하며 다이어리를 끝까지 써 본 적이 없어요."
+          
+          ],
+          "descriptions": [
+              "서울에서 가장 맛있는 치킨집만 모았어요",
+              "맛있는 치킨으로 오늘 하루도 유쾌하게 만들어보세요!"
+          ]
+      }
+    }      
+  }        
+]

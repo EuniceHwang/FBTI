@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20%);
+    }
+    50% {
+        transform: translateY(-40%);
+    }
+    75% {
+        transform: translateY(-60%);
+    }
+    100% {
+        transform: translateY(-80%);
+    }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5dc;
+    color: #000;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+#main_contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#main_contents .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main_title {
+    font-family: "MaplestoryOTFBold";
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.sub_title {
+    font-size: 40px;
+    font-family: "MaplestoryOTFBold";
+    color: #2F9D27;
+}
+
+.main_banner {
+    text-align: center;
+    padding: 0 0 50px;
+}
+
+.main_banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.type {
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-weight: 700;
+    line-height: 3em;
+    height: 3em;
+}
+
+.type {
+    font-size: 25px;
+    line-height: 3em;
+    height: 3em;
+    overflow: hidden;
+}
+  
+.type_list {
+    animation-name: rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.result_data {
+    display: flex;
+    justify-content: center;
+}
+
+.result_data .data_wrap {
+    padding: 15px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.result_data h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0 30px;   
+}
+
+.result_data li {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.explain {
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+}
+
+.start {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'MaplestoryOTFBold';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #2F9D27;
+    color: #fff;
+    cursor: pointer;
+    margin: 50px 0 30px;
+}
+
+.start:hover{
+    color: #2F9D27;
+    background-color: #fff;
+}
+
+.buttons {
+    text-align: center;
+}

@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5f5dc;
+    color: #000;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+button {
+    font-family: 'MaplestoryOTFBold';
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+}
+
+button:hover {
+    background-color: #2F9D27;
+    color: #fff;
+}
+
+#main_contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#main_contents .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.result h1 {
+    font-size: 50px;
+    font-family: "MaplestoryOTFBold";
+}
+
+.result h3 {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.result_img {
+    width: 300px;
+    height: 324px;
+}
+
+.result_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.result_explains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.result_explains .explain{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.result_explains .title {
+    font-family: "MaplestoryOTFBold";
+    font-size: 20px;
+    text-align: center;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.result_explains ul {
+    padding: 0 20px;
+    list-style-type: disc;
+}
+
+.result_explains li {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.stores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.stores .title {
+    text-align: center;
+    width: 400px;
+    font-size: 30px;
+    font-family: "MaplestoryOTFBold";
+    color: #000000;
+    position: relative;
+}
+
+.stores .title:before, .stores .title:after{
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+}
+
+.stores .title:before{
+    left: 0;
+    top: 50%;
+}
+
+.stores .title:after{
+    right: 0;
+    top: 50%;
+}
+
+.stores p {
+    padding: 50px 0;
+    line-height: 1.5;
+}
+
+.stores ul {
+    width: 400px;
+}
+
+.stores li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.stores a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+}
+
+.stores a:hover img {
+    transform: scale(1.05);
+}
+
+.stores a:hover button {
+    background: #fff;
+}
+
+.stores li img {
+    width: 50%;
+    height: auto;
+    transition: transform .5s;
+}
+
+.stores li h3 {
+    font-family: "MaplestoryOTFBold";
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 10px 20px;
+}
+
+.stores li button {
+    background-color: #2F9D27;
+    color: #fff;
+}
+
+.stores li button:hover {
+    color: #2F9D27;
+    background-color: #fff;
+}
+
+.share {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #000000;
+}
+
+.share button {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    padding-bottom: 50px;
+}
+
+.buttons h3 {
+    padding-bottom: 20px;
+}
+
+.buttons button {
+    margin-bottom: 30px;
+}
+
+.color {
+    background-color: #7F47DD;
+    color: #fff;
+}

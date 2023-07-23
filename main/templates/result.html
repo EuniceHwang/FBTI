@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/result.css' %}">
+    <meta property="og:title" content="FBTI" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="당신이라는 사람을 떠올릴 때 생각나는 음식" />
+    <title>FBTI</title>
+</head>
+<body>
+    <section id="main_contents">
+        <div class="wrapper">
+            <div class="result">
+                <div class="titles">
+                    <h3>{{ food.data.title }}</h3>
+                    <h1>{{ food.name }}</h1>
+                </div>
+                <div class="result_img">
+                    <img src="{% static 'image/' %}{{ food.pk }}.png">
+                </div>
+            </div>
+            <div class="result_explains">
+                <div class="explain">
+                    <h3 class="title">당신의 성격은</h3>
+                    <ul>                    
+                        {% for feature in food.data.features %}
+                        <li>
+                            {{ feature }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            <div class="result_explains">
+                <div class="explain">
+                    <h3 class="title">{{ food.name }} 맛있는 곳은?</h3>
+                    <ul>
+                        {% for description in food.data.descriptions %}
+                            <li>
+                                {{ description }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+            <div class="stores">
+                <ul>
+                    <li>
+                        <a href="https://www.youtubetasty.store" target="_blank">
+                            <button type="button">맛집 보러가기</button>
+                        </a>
+                        <h3> ↑↑내 주변의 맛집 확인하세요↑↑</h3>
+                        <img src="{% static 'image/foodmap.png' %}">
+                        
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="share">
+                <div class="restart">
+                    <a href="/">
+                        <button type="button">다시하기</button>
+                    </a>    
+                </div>
+                <div class="url">
+                    <button class="copy_btn" type="button">URL 복사하기</button>
+                </div>
+            </div>                
+        </div>
+    </section>
+    <script type="text/javascript" src="{% static 'js/result.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>        
+</body>
+</html>

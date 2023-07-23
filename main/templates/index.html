@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>FBTI</title>
+</head>
+<body> 
+    <section id="main_contents">
+        <div class="wrapper">
+            <div class="title">
+                <h3 class="main_title">FBTI</h3>
+                <h3 class="sub_title">나를 닮은 요리는?</h3>                
+            </div>
+            <div class="intro">
+            <div class="type">
+                <ul class="type_list">
+                    <li>만인의 힐러 국밥</li>
+                    <li>지조와 품격 스테이크</li>
+                    <li>시끌벅쩍 북쩍북쩍 떡튀순</li>
+                    <li>방구석본캐 모듬초밥</li>
+                    <li>소심한 관종 후라이드치킨</li>
+                </ul>
+            </div>
+        </div>
+            <div class="explain">
+                <p>
+                    당신이라는 사람을 떠올릴 때 생각나는<br><br>
+                    음식을 FBTI를 통해서 알 수 있어요<br><br>
+                    나는 과연 어떤 음식일까요? 
+                </p>
+            </div>
+            <div class="buttons">
+                <a href="/form/">
+                    <button class="start" type="button">시작하기</button>
+                </a>
+            </div>
+            <div class="result_data">
+                <div class="data_wrap">
+                    <ul>
+                        {% for food in foods %}
+                            <li>{{ food.name }} : {{ food.count }}명</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
